@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{bf35066d-88b6-4657-aaab-3bbdd951bbdd}">
+		<property name="assetPath">
+			<value>MPC/FALLING/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a1125c6-1856-42cc-81ce-0eb231fe9d6b}</destination>
+		</relationship>
+	</object>
+</objects>

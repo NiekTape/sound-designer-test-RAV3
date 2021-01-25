@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{4c42cda0-ccd5-44f1-9941-36b0195a694f}">
+		<property name="assetPath">
+			<value>MPC/FTSP/SURFACE/MPC_ftsp_concrete_01.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.36571428571428571</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a1125c6-1856-42cc-81ce-0eb231fe9d6b}</destination>
+		</relationship>
+	</object>
+</objects>

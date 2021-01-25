@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{382ae297-bcdb-4221-8db8-6f3629c66b21}">
+		<property name="overridingInputFormat">
+			<value>2</value>
+		</property>
+		<property name="inputFormatOverridden">
+			<value>true</value>
+		</property>
+		<property name="name">
+			<value>Reverb</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{6b866ec8-2183-4599-844b-e1a9c915d07e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0caa6c5a-4c2c-4116-9017-9f870c6cac62}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5d89ecc2-6a56-4a20-9c76-7b8f6d0629ed}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{6b866ec8-2183-4599-844b-e1a9c915d07e}">
+		<relationship name="effects">
+			<destination>{2cc79a13-a2d0-420b-b9af-5957e1c04b38}</destination>
+			<destination>{b6d537d8-d825-40ac-8e7c-264373cb648e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0caa6c5a-4c2c-4116-9017-9f870c6cac62}" />
+	<object class="SFXReverbEffect" id="{2cc79a13-a2d0-420b-b9af-5957e1c04b38}">
+		<property name="decayTime">
+			<value>2000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15.5</value>
+		</property>
+		<property name="lateDelay">
+			<value>30</value>
+		</property>
+		<property name="HFReference">
+			<value>1100</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>76</value>
+		</property>
+		<property name="density">
+			<value>80.5</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>2</value>
+		</property>
+		<property name="highCut">
+			<value>1000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>61</value>
+		</property>
+		<property name="wetLevel">
+			<value>1</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{b6d537d8-d825-40ac-8e7c-264373cb648e}" />
+</objects>

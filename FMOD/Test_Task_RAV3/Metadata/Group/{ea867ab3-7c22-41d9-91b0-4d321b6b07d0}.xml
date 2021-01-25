@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{ea867ab3-7c22-41d9-91b0-4d321b6b07d0}">
+		<property name="name">
+			<value>breathe</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ac6bffeb-12f9-487f-b076-3aca29179be8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{77e56429-6d4f-46a5-8f0b-e6dd1b2101ab}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{e289467b-053d-45d5-b181-1e99df8f604f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ac6bffeb-12f9-487f-b076-3aca29179be8}">
+		<relationship name="effects">
+			<destination>{57e6613c-65cd-4707-b640-20c25d703944}</destination>
+			<destination>{91ca4270-b967-4bf3-b196-7611b69916f0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{77e56429-6d4f-46a5-8f0b-e6dd1b2101ab}" />
+	<object class="DistortionEffect" id="{57e6613c-65cd-4707-b640-20c25d703944}">
+		<property name="level">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{91ca4270-b967-4bf3-b196-7611b69916f0}" />
+</objects>

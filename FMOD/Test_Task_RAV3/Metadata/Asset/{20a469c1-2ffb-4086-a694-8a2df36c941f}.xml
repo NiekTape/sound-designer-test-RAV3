@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{20a469c1-2ffb-4086-a694-8a2df36c941f}">
+		<property name="assetPath">
+			<value>MPC/FTSP/SURFACE/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a1125c6-1856-42cc-81ce-0eb231fe9d6b}</destination>
+		</relationship>
+	</object>
+</objects>

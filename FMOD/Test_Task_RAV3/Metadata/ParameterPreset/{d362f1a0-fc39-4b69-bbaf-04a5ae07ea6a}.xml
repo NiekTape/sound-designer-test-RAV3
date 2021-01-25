@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{d362f1a0-fc39-4b69-bbaf-04a5ae07ea6a}">
+		<property name="name">
+			<value>jump_in_move</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e6b753fb-076e-445f-bc1d-e08fd24b9830}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8d005dc8-6f6d-4bdf-b003-a51721b2657a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8d005dc8-6f6d-4bdf-b003-a51721b2657a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>idle</value>
+			<value>moving</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{52262974-91d9-4ba8-9c9c-d0b966eb39eb}">
+		<property name="name">
+			<value>power_falling</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e6b753fb-076e-445f-bc1d-e08fd24b9830}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8d55004c-ce25-4915-9131-09d0fa0ca1e8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8d55004c-ce25-4915-9131-09d0fa0ca1e8}">
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>15</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

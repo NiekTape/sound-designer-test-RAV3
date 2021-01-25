@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{d732b71b-6bef-433f-94ce-332ba7ddfc7d}">
+		<property name="assetPath">
+			<value>MPC/BREATHE/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a1125c6-1856-42cc-81ce-0eb231fe9d6b}</destination>
+		</relationship>
+	</object>
+</objects>

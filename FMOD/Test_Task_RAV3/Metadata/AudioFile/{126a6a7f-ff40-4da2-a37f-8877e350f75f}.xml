@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{126a6a7f-ff40-4da2-a37f-8877e350f75f}">
+		<property name="assetPath">
+			<value>AMB/OUTDOOR/STREET/AMB_street_traffic_05.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>41.40408163265306</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6a1125c6-1856-42cc-81ce-0eb231fe9d6b}</destination>
+		</relationship>
+	</object>
+</objects>
